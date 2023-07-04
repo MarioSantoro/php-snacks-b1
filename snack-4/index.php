@@ -1,11 +1,11 @@
 <?php
 function SubArray($array, $a, $b)
 {
-    for ($i = $a + 1; $i < $b; $i++) {
-        $array[] = $i;
+    for ($i = $a; $i < $b - 1; $i++) {
+        $newArray[] = $array[$i];
     }
-    var_dump($array);
+    var_dump($newArray);
 }
 
-$element = [];
-SubArray($element, 4, 8);
+$element = [1, 2, 3, 4, 45, 46, 47, 48, 49, 10];
+SubArray($element, 3, 10);
