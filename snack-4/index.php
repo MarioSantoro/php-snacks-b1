@@ -8,4 +8,4 @@ function SubArray($array, $a, $b)
 }
 
 $element = [1, 2, 3, 4, 45, 46, 47, 48, 49, 10];
-SubArray($element, 3, 10);
+SubArray($element, 1, 5);
